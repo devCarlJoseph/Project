@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #292626;
+}
+
+.top {
+    border: none #8afc19;
+    background-color: #8afc196b;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    mix-blend-mode: multiply;
+    margin-top: 5px;
+    width: 6rem;
+}
+
+.carl-section, .tommy-section, .no-section {
+    margin-top: 0.5rem;
+    background-color: #3b581db0;
+}
+
+.carl, .tommy, .no {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carl-background, .tommy-background, .no-background {
+    border-radius: 2rem;
+    background-color: rgba(143, 188, 228, 0.11);
+    position: relative;
+    margin: 2rem 1.5rem;
+}
+
+.carl-background img, .tommy-background img, .no-background img {
+    border-radius: 5rem;
+    width: 45rem;
+    padding: 2rem 2rem;
+}
+
+.carl-img {
+    position: absolute;
+    mix-blend-mode: multiply;
+}
+
+.carl-img img {
+    width: 9.5rem;
+    margin-left: 19rem;
+}
+
+.carl-text, .tommy-text, .no-text {
+    border-radius: 2rem;
+    background-color: rgba(143, 188, 228, 0.11);
+    width: 40rem;
+    height: 10rem;
+    margin-right: 5rem;
+}
+
+.carl-text h1, .tommy-text h1, .no-text h1 {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.carl-text p, .tommy-text p, .no-text p {
+    text-align: justify;
+    padding: 0 2rem;
+}
