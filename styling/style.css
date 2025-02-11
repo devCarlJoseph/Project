@@ -12,7 +12,7 @@ body {
 
 .top {
     border: none #8afc19;
-    background-color: #8afc196b;
+    background-color: #fcfcfc6e;
 }
 
 .logo {
@@ -28,31 +28,47 @@ body {
 }
 
 .carl-section {
-    margin-top: 0.5rem;
-    background: rgba(27, 240, 190, 0.279);
+    margin: 1rem 7rem;
+    background: rgba(148, 139, 92, 0.24);
     border-radius: 16px;    
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(5px);
+    box-shadow: 0 2px 35px rgba(250, 234, 141, 0.719);
+    backdrop-filter: blur(0.25rem);
     -webkit-backdrop-filter: blur(5px);
+    transition: transform 0.5s ease-in-out;
+}
+
+.carl-section:hover {
+    transform: scale(1.03);
 }
 
 .tommy-section {
-    margin-top: 0.5rem;
-    background: rgba(0, 255, 162, 0.279);
+    margin: 2.5rem 7rem;
+    background: rgba(143, 32, 25, 0.192);
     border-radius: 16px;    
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(5px);
+    box-shadow: 0 2px 30px rgba(247, 119, 80, 0.699);
+    backdrop-filter: blur(0.25rem);
     -webkit-backdrop-filter: blur(5px);
+    transition: transform 0.5s ease-in-out;
+}
+
+.tommy-section:hover {
+    transform: scale(1.03);
 }
 
 .romel-section {
-    margin-top: 0.5rem;
-    background: rgba(7, 237, 95, 0.279);
+    margin: 1.5rem 7rem;
+    background: rgba(88, 72, 18, 0.404);
     border-radius: 16px;    
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(5px);
+    box-shadow: 0 2px 30px rgba(250, 234, 141, 0.719);
+    backdrop-filter: blur(0.25rem);
     -webkit-backdrop-filter: blur(5px);
+    transition: transform 0.5s ease-in-out;
 }
+
+.romel-section:hover {
+    transform: scale(1.03);
+}
+
 
 .carl, .tommy, .romel {
     display: flex;
@@ -60,17 +76,58 @@ body {
     align-items: center;
 }
 
-.carl-background, .tommy-background, .romel-background {
-    border-radius: 2rem;
-    background-color: rgba(61, 255, 109, 0.287);
+.carl-background {  
+    border-radius: 5rem;
+    background-color:  rgba(204, 193, 143, 0.336);
     position: relative;
     margin: 2rem 1.5rem;
+    box-shadow: 0 4px 15px rgba(243, 231, 165, 0.795);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 
-.carl-background img, .tommy-background img, .romel-background img {
+.tommy-background {
     border-radius: 5rem;
+    background-color:  rgba(170, 99, 99, 0.932);
+    position: relative;
+    margin: 2rem 1.5rem;
+    box-shadow: 0 4px 20px rgba(247, 119, 80, 0.699);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.romel-background {
+    border-radius: 5rem;
+    background-color:  rgba(146, 134, 94, 0.37);;
+    position: relative;
+    margin: 2rem 1.5rem;
+    box-shadow: 0 4px 15px rgba(248, 241, 134, 0.808);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.carl-background img {
+    border-radius: 5rem;
+    margin: 1rem 1rem;
     width: 45rem;
     padding: 2rem 2rem;
+    box-shadow: 0 4px 15px rgba(243, 231, 165, 0.795);;
+}
+
+.tommy-background img {
+    border-radius: 5rem;
+    margin: 1rem 1rem;
+    width: 45rem;
+    padding: 2rem 2rem;
+    box-shadow: 0 4px 20px rgba(145, 71, 48, 0.788);
+}
+
+.romel-background img {
+    border-radius: 5rem;
+    margin: 1rem 1rem;
+    width: 45rem;
+    padding: 2rem 2rem;
+    box-shadow: 0 4px 15px rgba(233, 224, 105, 0.521);
 }
 
 .carl-img, .tommy-img, .romel-img {
@@ -83,12 +140,31 @@ body {
     margin-left: 19rem;
 }
 
-.carl-text, .tommy-text, .romel-text {
+.carl-text {
     border-radius: 2rem;
-    background-color:  rgba(121, 253, 209, 0.166);
+    background-color:  rgba(235, 224, 176, 0.349);
+    box-shadow: 0 4px 25px rgba(243, 231, 165, 0.795);
     width: 40rem;
     height: 10rem;
-    margin-right: 5rem;
+    margin-right: 1.5rem;
+}
+
+.tommy-text {
+    border-radius: 2rem;
+    background-color:  rgba(240, 180, 180, 0.445);
+    box-shadow: 0 4px 25px rgba(247, 119, 80, 0.699);
+    width: 40rem;
+    height: 10rem;
+    margin-right: 1.5rem;
+}
+
+.romel-text {
+    border-radius: 2rem;
+    background-color:  rgba(146, 134, 94, 0.37);
+    box-shadow: 0 4px 25px rgba(248, 241, 134, 0.808);
+    width: 40rem;
+    height: 10rem;
+    margin-right: 1.5rem;
 }
 
 .carl-text h1, .tommy-text h1, .romel-text h1 {
