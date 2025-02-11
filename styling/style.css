@@ -195,4 +195,6 @@ body {
 .bottom p {
     text-align: center;
     padding-top: 7px;
+    color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
