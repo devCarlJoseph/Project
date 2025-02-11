@@ -5,7 +5,9 @@
 }
 
 body {
-    background-color: #292626;
+    background-image: url('../images/galaxy cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .top {
@@ -25,31 +27,53 @@ body {
     width: 6rem;
 }
 
-.carl-section, .tommy-section, .no-section {
+.carl-section {
     margin-top: 0.5rem;
-    background-color: #3b581db0;
+    background: rgba(27, 240, 190, 0.279);
+    border-radius: 16px;    
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 
-.carl, .tommy, .no {
+.tommy-section {
+    margin-top: 0.5rem;
+    background: rgba(0, 255, 162, 0.279);
+    border-radius: 16px;    
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.romel-section {
+    margin-top: 0.5rem;
+    background: rgba(7, 237, 95, 0.279);
+    border-radius: 16px;    
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.carl, .tommy, .romel {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.carl-background, .tommy-background, .no-background {
+.carl-background, .tommy-background, .romel-background {
     border-radius: 2rem;
-    background-color: rgba(143, 188, 228, 0.11);
+    background-color: rgba(61, 255, 109, 0.287);
     position: relative;
     margin: 2rem 1.5rem;
 }
 
-.carl-background img, .tommy-background img, .no-background img {
+.carl-background img, .tommy-background img, .romel-background img {
     border-radius: 5rem;
     width: 45rem;
     padding: 2rem 2rem;
 }
 
-.carl-img {
+.carl-img, .tommy-img, .romel-img {
     position: absolute;
     mix-blend-mode: multiply;
 }
@@ -59,20 +83,40 @@ body {
     margin-left: 19rem;
 }
 
-.carl-text, .tommy-text, .no-text {
+.carl-text, .tommy-text, .romel-text {
     border-radius: 2rem;
-    background-color: rgba(143, 188, 228, 0.11);
+    background-color:  rgba(121, 253, 209, 0.166);
     width: 40rem;
     height: 10rem;
     margin-right: 5rem;
 }
 
-.carl-text h1, .tommy-text h1, .no-text h1 {
+.carl-text h1, .tommy-text h1, .romel-text h1 {
     text-align: center;
     padding-top: 1rem;
 }
 
-.carl-text p, .tommy-text p, .no-text p {
+.carl-text p, .tommy-text p, .romel-text p {
     text-align: justify;
     padding: 0 2rem;
+}
+
+.tommy-img img {
+    width: 12rem;
+    margin-left: 17.5rem;
+}
+
+.romel-img img {
+    width: 10rem;
+    margin-left: 18.5rem;
+}
+
+.bottom {
+    background-color: #97e7476d;
+    height: 2rem;
+}
+
+.bottom p {
+    text-align: center;
+    padding-top: 7px;
 }
