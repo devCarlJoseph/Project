@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../images/galaxy cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top {
+    border: none #8afc19;
+    background-color: #fcfcfc6e;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    mix-blend-mode: multiply;
+    margin-top: 5px;
+    width: 6rem;
+}
+
+.carl-section {
+    margin: 1rem 7rem;
+    background: rgba(148, 139, 92, 0.24);
+    border-radius: 16px;    
+    box-shadow: 0 2px 35px rgba(250, 234, 141, 0.719);
+    backdrop-filter: blur(0.25rem);
+    -webkit-backdrop-filter: blur(5px);
+    transition: transform 0.5s ease-in-out;
+}
+
+.carl-section:hover {
+    transform: scale(1.03);
+}
+
+.tommy-section {
+    margin: 2.5rem 7rem;
+    background: rgba(143, 32, 25, 0.192);
+    border-radius: 16px;    
+    box-shadow: 0 2px 30px rgba(247, 119, 80, 0.699);
+    backdrop-filter: blur(0.25rem);
+    -webkit-backdrop-filter: blur(5px);
+    transition: transform 0.5s ease-in-out;
+}
+
+.tommy-section:hover {
+    transform: scale(1.03);
+}
+
+.romel-section {
+    margin: 1.5rem 7rem;
+    background: rgba(88, 72, 18, 0.404);
+    border-radius: 16px;    
+    box-shadow: 0 2px 30px rgba(250, 234, 141, 0.719);
+    backdrop-filter: blur(0.25rem);
+    -webkit-backdrop-filter: blur(5px);
+    transition: transform 0.5s ease-in-out;
+}
+
+.romel-section:hover {
+    transform: scale(1.03);
+}
+
+
+.carl, .tommy, .romel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carl-background {  
+    border-radius: 5rem;
+    background-color:  rgba(204, 193, 143, 0.336);
+    position: relative;
+    margin: 2rem 1.5rem;
+    box-shadow: 0 4px 15px rgba(243, 231, 165, 0.795);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.tommy-background {
+    border-radius: 5rem;
+    background-color:  rgba(170, 99, 99, 0.932);
+    position: relative;
+    margin: 2rem 1.5rem;
+    box-shadow: 0 4px 20px rgba(247, 119, 80, 0.699);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.romel-background {
+    border-radius: 5rem;
+    background-color:  rgba(146, 134, 94, 0.37);;
+    position: relative;
+    margin: 2rem 1.5rem;
+    box-shadow: 0 4px 15px rgba(248, 241, 134, 0.808);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.carl-background img {
+    border-radius: 5rem;
+    margin: 1rem 1rem;
+    width: 45rem;
+    padding: 2rem 2rem;
+    box-shadow: 0 4px 15px rgba(243, 231, 165, 0.795);;
+}
+
+.tommy-background img {
+    border-radius: 5rem;
+    margin: 1rem 1rem;
+    width: 45rem;
+    padding: 2rem 2rem;
+    box-shadow: 0 4px 20px rgba(145, 71, 48, 0.788);
+}
+
+.romel-background img {
+    border-radius: 5rem;
+    margin: 1rem 1rem;
+    width: 45rem;
+    padding: 2rem 2rem;
+    box-shadow: 0 4px 15px rgba(233, 224, 105, 0.521);
+}
+
+.carl-img, .tommy-img, .romel-img {
+    position: absolute;
+    mix-blend-mode: multiply;
+}
+
+.carl-img img {
+    width: 9.5rem;
+    margin-left: 19rem;
+}
+
+.carl-text {
+    border-radius: 2rem;
+    background-color:  rgba(235, 224, 176, 0.349);
+    box-shadow: 0 4px 25px rgba(243, 231, 165, 0.795);
+    width: 40rem;
+    height: 10rem;
+    margin-right: 1.5rem;
+}
+
+.tommy-text {
+    border-radius: 2rem;
+    background-color:  rgba(240, 180, 180, 0.445);
+    box-shadow: 0 4px 25px rgba(247, 119, 80, 0.699);
+    width: 40rem;
+    height: 10rem;
+    margin-right: 1.5rem;
+}
+
+.romel-text {
+    border-radius: 2rem;
+    background-color:  rgba(146, 134, 94, 0.37);
+    box-shadow: 0 4px 25px rgba(248, 241, 134, 0.808);
+    width: 40rem;
+    height: 10rem;
+    margin-right: 1.5rem;
+}
+
+.carl-text h1, .tommy-text h1, .romel-text h1 {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.carl-text p, .tommy-text p, .romel-text p {
+    text-align: justify;
+    padding: 0 2rem;
+}
+
+.tommy-img img {
+    width: 12rem;
+    margin-left: 17.5rem;
+}
+
+.romel-img img {
+    width: 10rem;
+    margin-left: 18.5rem;
+}
+
+.bottom {
+    background-color: #97e7476d;
+    height: 2rem;
+}
+
+.bottom p {
+    text-align: center;
+    padding-top: 7px;
+    color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
